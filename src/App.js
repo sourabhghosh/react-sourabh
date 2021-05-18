@@ -10,7 +10,7 @@ export default function App() {
   return (
     <div>
       <Header text='My new App'></Header>
-      <Body onClick='{onclick}'></Body>
+      <Body onClick={onclick}></Body>
     </div>
   );
 }

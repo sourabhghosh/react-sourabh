@@ -5,7 +5,7 @@ import PropTypes from 'prop-types'
 const Button =({onClick}) => {
   
   return(
-     <button onClick={onClick}>Add...</button>
+     <button onClick={onClick}><span>Add</span></button>
   );
 }
 
